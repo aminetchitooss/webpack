@@ -1,0 +1,25 @@
+{
+  "name": "webpack-calculator",
+  "version": "1.0.0",
+  "description": "simple calculator",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aminetchitooss/webpack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aminetchitooss/webpack/issues"
+  },
+  "homepage": "https://github.com/aminetchitooss/webpack#readme",
+  "devDependencies": {
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}

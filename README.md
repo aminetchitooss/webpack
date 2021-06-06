@@ -1,5 +1,5 @@
-# This branch is without webpack 
+# This branch includes webpack 
 
-## Bootstrap from CDN
+## Bootstrap from node_modules
 
-## Component logic is in one script `app.js` including form validation
+## Component logic is spread out across multiple modules `*.js`  
