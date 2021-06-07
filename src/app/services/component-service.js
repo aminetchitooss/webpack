@@ -1,3 +1,4 @@
+import * as $ from 'jquery/dist/jquery.slim';
 export class ComponentService {
 
     constructor() {
