@@ -1,5 +1,5 @@
 import { run } from './app/app';
-import "./app/main.scss";
+import "./main.scss";
 
 import { AlertService } from './app/services/alert-service';
 import { ComponentService } from './app/services/component-service';
