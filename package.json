@@ -5,7 +5,7 @@
   "main": "app.js",
   "private": true,
   "scripts": {
-    "start": "webpack serve --config webpack.dev.js --open",
+    "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js"
   },
   "repository": {
@@ -21,9 +21,11 @@
   "homepage": "https://github.com/aminetchitooss/webpack#readme",
   "devDependencies": {
     "bootstrap": "^5.0.1",
-    "css-loader": "^5.2.6",
-    "html-webpack-plugin": "^5.3.1",
     "jquery": "^3.6.0",
+    "css-loader": "^5.2.6",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
     "node-sass": "^6.0.0",
     "sass-loader": "^12.0.0",
     "style-loader": "^2.0.0",

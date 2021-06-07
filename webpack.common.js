@@ -6,17 +6,14 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.scss$/,
+                test: /\.html$/,
                 use: [
-                    "style-loader", //3 Injectd into DOM
-                    "css-loader",   //2 css to commonJs
-                    "sass-loader"   //1 sass to css
+                    "html-loader"
                 ]
             }
-
         ]
     },
     plugins: [new HtmlWebpackPlugin({
-        template:"./src/template.html"
+        template: "./src/template.html"
     })]
 };
